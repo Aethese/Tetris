@@ -853,12 +853,12 @@ function randomShape()
 
 	switch(result)
 	{
-		case 0: shape = new ShapeL();			break;
-		case 1: shape = new ShapeO();			break;
-		case 2: shape = new ShapeZ();			break;
-		case 3: shape = new ShapeT();			break;
-		case 4: shape = new ShapeLR();			break;
-		case 5: shape = new ShapeZR();			break;
+		case 0: shape = new ShapeI();			break;
+		case 1: shape = new ShapeI();			break;
+		case 2: shape = new ShapeI();			break;
+		case 3: shape = new ShapeI();			break;
+		case 4: shape = new ShapeI();			break;
+		case 5: shape = new ShapeI();			break;
 		case 6: shape = new ShapeI();			break;
 	}
 	shape.init();
