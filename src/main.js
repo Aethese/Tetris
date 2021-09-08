@@ -118,7 +118,7 @@ var calcScore = function(rows){
 	Calculate time interval by level, the higher the level,the faster shape moves
 */
 var calcIntervalByLevel = function(level){
-	return consts.DEFAULT_INTERVAL  - (level-1)*600;
+	return consts.DEFAULT_INTERVAL  - (level-1)*60;
 };
 
 
@@ -298,6 +298,5 @@ Tetris.prototype = {
 		}
 	}
 }
-
 
 window.Tetris = Tetris;
